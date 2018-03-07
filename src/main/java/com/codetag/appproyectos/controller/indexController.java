@@ -8,11 +8,13 @@ package com.codetag.appproyectos.controller;
 import java.util.Map;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+
 /**
  *
  * @author proy-dim
  */
 @Controller
+
 public class indexController {
 
     private String mensaje = "Bienvenido al sistema de proyectos";
