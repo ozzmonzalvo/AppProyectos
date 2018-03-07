@@ -14,13 +14,13 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
  * @author proy-dim
  */
 @SpringBootApplication
-public class SpringBootWebApplication extends SpringBootServletInitializer {
+public class SpringBootWebApplication {
+//public class SpringBootWebApplication extends SpringBootServletInitializer {
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(SpringBootWebApplication.class);
-    }
-
+//    @Override
+//    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+//        return builder.sources(SpringBootWebApplication.class);
+//    }
     public static void main(String[] args) throws Exception {
         new SpringApplicationBuilder(SpringBootWebApplication.class).run(args);
 
