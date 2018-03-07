@@ -11,7 +11,7 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!--   <start-class>com.codetag.appproyectos.SpringBootWebApplication</start-class>-->
+        <start-class>com.codetag.appproyectos.SpringBootWebApplication</start-class>
     
     </properties>
     
@@ -111,7 +111,13 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>       
+            </plugin>  
+        
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+	  
         </plugins>
     </build>
 
